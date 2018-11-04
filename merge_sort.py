@@ -1,3 +1,10 @@
+'''
+Time Complexity
+Best : O(nlog(n))
+Average : O(nlog(n))
+Worst : O(nlog(n))
+'''
+
 def MERGE(A,p, q, r):
     L = A[p:q]
     R = A[q:r]
