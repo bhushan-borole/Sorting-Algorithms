@@ -1,3 +1,10 @@
+'''
+Time Complexity
+Best : O(nlog(n))
+Average : O(nlog(n))
+Worst : O(nlog(n))
+'''
+
 def HEAP_SORT(A):
 
 	heap_size = BUILD_MAX_HEAP(A)
