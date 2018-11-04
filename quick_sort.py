@@ -1,6 +1,8 @@
 def QUICK_SORT(A, low, high):
 	if low < high:
+		# q = partitioning index
 		q = PARTITION(A, low, high)
+		
 		QUICK_SORT(A, low, q - 1)
 		QUICK_SORT(A, q + 1, high)
 
