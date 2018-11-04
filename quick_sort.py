@@ -1,3 +1,10 @@
+'''
+Time Complexity
+Best : O(nlog(n))
+Average : O(nlog(n))
+Worst : O(n^2)
+'''
+
 def QUICK_SORT(A, low, high):
 	if low < high:
 		# q = partitioning index
