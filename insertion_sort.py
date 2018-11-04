@@ -1,3 +1,10 @@
+'''
+Time Complexity
+Best : O(n)
+Average : O(n^2)
+Worst : O(n^2)
+'''
+
 def insertion_sort(A):
 	for j in range(2, len(A)):
 		key = A[j]
