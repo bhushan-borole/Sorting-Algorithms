@@ -11,7 +11,7 @@ Worst : O(n(log(n))^2)
 def SHELL_SORT(A):
 	length = len(A)
 	#initalize gap to mid of the array
-	gap = int(length / 2)
+	gap = length // 2
 
 	while gap > 0:
 		for i in range(gap, length):
@@ -23,7 +23,7 @@ def SHELL_SORT(A):
 				j -= gap
 
 			A[j] = temp
-		gap = int(gap / 2)
+		gap = gap // 2
 
 
 A = [9, 8, 7, 6, 5, 4, 3, 2, 1]
