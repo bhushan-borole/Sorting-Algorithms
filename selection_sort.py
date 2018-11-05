@@ -5,7 +5,7 @@ Average : O(n^2)
 Worst : O(n^2)
 '''
 
-def selection_sort(A):
+def SELECTION_SORT(A):
 	for i in range(len(A)):
 		min_index = i
 
@@ -16,6 +16,6 @@ def selection_sort(A):
 		A[i], A[min_index] = A[min_index], A[i]
 
 A = [9, 8, 7, 6, 5, 4, 3, 2, 1]
-selection_sort(A)
+SELECTION_SORT(A)
 print(A)
 
