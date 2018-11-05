@@ -19,7 +19,7 @@ def COUNTING_SORT(A, mod):
   
     
     for i in range(0, n): 
-        index = int(A[i] / mod) 
+        index = A[i] // mod 
         count[index % 10] += 1
   
     for i in range(1,10): 
@@ -28,7 +28,7 @@ def COUNTING_SORT(A, mod):
     # Build the output array 
     i = n-1
     while i>=0: 
-        index = int(A[i] / mod) 
+        index = A[i] // mod 
         output[ count[index % 10] - 1] = A[i] 
         count[index % 10] -= 1
         i -= 1
