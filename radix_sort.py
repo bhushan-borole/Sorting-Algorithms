@@ -22,7 +22,6 @@ def COUNTING_SORT(A, mod):
         index = int(A[i] / mod) 
         count[index % 10] += 1
   
-    # shifting elements one place to right
     for i in range(1,10): 
         count[i] += count[i-1] 
   
