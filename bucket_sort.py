@@ -3,6 +3,8 @@ Time Complexity
 Best : O(n + k)
 Average : O(n + k)
 Worst : O(n ^ 2)
+
+Note: This sorting is used for decimal numbers.
 '''
 
 def INSERTION_SORT(A):
