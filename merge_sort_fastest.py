@@ -9,8 +9,7 @@ def MERGE_SORT(A):
         A.remove(a)
         A.remove(b)
     if A: start.append(A[0])
-    end.reverse()
-    return (start + end)
+    return start + end[::-1]
 
 A = [9, 8, 7, 6, 5, 4, 3, 2, 1]
 print(MERGE_SORT(A))
