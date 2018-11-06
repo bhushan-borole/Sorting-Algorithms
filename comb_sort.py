@@ -9,7 +9,7 @@ The shrink factor has been empirically found to be 1.3 (by testing Combsort on o
 
 Time Complexity
 Best : O(n)
-Average : Ω(n^2/2^p)
+Average : Ω(n^2/2^p)   p denotes the number of increments and not gaps
 Worst : O(n^2)
 '''
 
